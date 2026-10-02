@@ -1,0 +1,141 @@
+{
+  "primary_research_sources": [
+    {
+      "name": "pcap-09.txt",
+      "sha256": "5990e4bb032e396568266dcdc3dc7cb8befc059e49f6d8d5376f28a848a82a4d",
+      "bytes": 24806,
+      "lines": 616,
+      "read_scope": [
+        [
+          179,
+          430
+        ]
+      ],
+      "runtime_bundled": false
+    },
+    {
+      "name": "pcapng-06.txt",
+      "sha256": "0c95e9e7061fdae8a5c95b57e8f299e758de7fffbf0da43015a8cbd678d2539c",
+      "bytes": 153266,
+      "lines": 3528,
+      "read_scope": [
+        [
+          199,
+          627
+        ],
+        [
+          709,
+          1868
+        ]
+      ],
+      "runtime_bundled": false
+    },
+    {
+      "name": "rfc8446.txt",
+      "sha256": "47871bc8820a2c3b6ea89f061055577058862cf543686b82d10131239702b3bd",
+      "bytes": 337736,
+      "lines": 8963,
+      "read_scope": [
+        [
+          1485,
+          2216
+        ],
+        [
+          4326,
+          4434
+        ]
+      ],
+      "runtime_bundled": false
+    },
+    {
+      "name": "rfc8701.txt",
+      "sha256": "47334d907d7c269e4bcc8257a87116ecae0bf8e0a90ccbd5a8f62ae38e8921e6",
+      "bytes": 24972,
+      "lines": 582,
+      "read_scope": [
+        [
+          82,
+          306
+        ]
+      ],
+      "runtime_bundled": false
+    },
+    {
+      "name": "rfc791.txt",
+      "sha256": "6cfb387fcecfc1b72f2f69343c5b6951b5d263d708162e2b5c66ab8f394f6265",
+      "bytes": 94892,
+      "lines": 2887,
+      "read_scope": [
+        [
+          831,
+          1069
+        ]
+      ],
+      "runtime_bundled": false
+    },
+    {
+      "name": "rfc8200.txt",
+      "sha256": "371ae3f133d562db5d6385e6def4ca9914c4f831be228ea7779fd28799c2f490",
+      "bytes": 93162,
+      "lines": 2355,
+      "read_scope": [
+        [
+          297,
+          433
+        ],
+        [
+          567,
+          668
+        ],
+        [
+          735,
+          958
+        ]
+      ],
+      "runtime_bundled": false
+    },
+    {
+      "name": "rfc9293.txt",
+      "sha256": "6d9ac8be4b0286f8c3d337addf442b2eb6a9b14e1366594ea7fbc273f93dc2d9",
+      "bytes": 263696,
+      "lines": 5576,
+      "read_scope": [
+        [
+          277,
+          520
+        ]
+      ],
+      "runtime_bundled": false
+    },
+    {
+      "name": "print-null.c",
+      "sha256": "d3ad6dbf488d11d64fd2d4d66caf5bd2e6a592437e3af15627aea10b6cdac627",
+      "bytes": 3960,
+      "lines": 136,
+      "read_scope": "ENTIRE_FILE",
+      "runtime_bundled": false
+    },
+    {
+      "name": "tcpdump-af.h",
+      "sha256": "1db9f194e200ceadd552b0eec4c135a8a9fa9cd7d0c76c077b548a95e00a263a",
+      "bytes": 1859,
+      "lines": 55,
+      "read_scope": "ENTIRE_FILE",
+      "runtime_bundled": false
+    },
+    {
+      "name": "tcpdump-print-sll.c",
+      "sha256": "4ca1d93561dac450f748e3570498e59f6d02a945f65bc6fb3a2b5df207b72535",
+      "bytes": 14352,
+      "lines": 533,
+      "read_scope": [
+        [
+          1,
+          180
+        ]
+      ],
+      "runtime_bundled": false
+    }
+  ],
+  "full_reference_implementation_audit": false
+}

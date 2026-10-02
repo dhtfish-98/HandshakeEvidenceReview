@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "handshake-evidence-review"
+version = "0.1.0"
+description = "Bounded offline capture and TLS hello fingerprint evidence"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "BSD-3-Clause"
+license-files = ["LICENSE", "NOTICE", "licenses/*.txt"]
+dependencies = []
+
+[project.scripts]
+handshake-evidence-review = "handshake_evidence_review.cli:main"
+
+[project.urls]
+Repository = "https://github.com/dhtfish-98/HandshakeEvidenceReview"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+handshake_evidence_review = ["py.typed"]
+
+[tool.setuptools.data-files]
+"share/handshake-evidence-review" = ["README.md", "ORIGIN.md", "DEFENSIVE_SCOPE.md", "VALIDATION.md", "SOURCE_AUDIT.json", "requirements-build.lock"]
+"share/handshake-evidence-review/evidence" = ["evidence/*.json"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["E501"]

@@ -1,0 +1,18 @@
+HandshakeEvidenceReview is independently written defensive code developed with
+OpenAI Codex assistance. It is not an official Salesforce/DPKT/IETF release or a
+CVP-approved project. The applicant is not the sole original upstream author.
+
+The complete original Salesforce JA3 BSD-3-Clause copyright/license is retained
+verbatim in licenses/salesforce-BSD-3-Clause.txt, fixed source commit
+502cc6395811c54743b0561419d61900a6df3ff7. The selected source was studied for the
+JA3/JA3S compatibility formula. No original runtime or intelligence list is bundled.
+
+DPKT1.9.8 is a research-only oracle dependency, separately pinned; its complete
+BSD license and authors notice are preserved in licenses/dpkt-research-BSD.txt
+and licenses/dpkt-research-AUTHORS.txt. Its implementation is not bundled here.
+Host Python and pinned build-tool implementations are separate trusted dependencies.
+
+Primary IETF RFC/draft and tcpdump format references were research readings as
+declared in ORIGIN.md; their source text/C implementations are not redistributed
+or relabeled as applicant work. No personal capture, target executable, packet
+transmission, evasion generator or user identity/credentials are included.

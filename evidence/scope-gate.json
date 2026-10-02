@@ -1,0 +1,103 @@
+{
+  "project": "HandshakeEvidenceReview",
+  "upstream": "salesforce/ja3",
+  "fixed_commit": "502cc6395811c54743b0561419d61900a6df3ff7",
+  "license": "BSD-3-Clause",
+  "complete_selected_source_review": "PASS",
+  "runtime_script_count": 3,
+  "runtime_lines": 756,
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1484,
+      "lines": 12,
+      "sha256": "9f6d1b467c2cfd977e794bfb379164117e6cd4130d145dfe12800dd85da88dc3",
+      "git_blob_sha1": "1d0c8657884ff0128eed30ebaa1136db9cafa09a",
+      "fixed_tree_blob_match": true,
+      "read_scope": "full_file",
+      "source_url": "https://raw.githubusercontent.com/salesforce/ja3/502cc6395811c54743b0561419d61900a6df3ff7/LICENSE.txt"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9136,
+      "lines": 140,
+      "sha256": "098093f7f664e49016ea563ef9ff359fae14508125eeafe2ee448b7823f64367",
+      "git_blob_sha1": "8ca0930ecc1705c7a45d579351cf47b875ddca0d",
+      "fixed_tree_blob_match": true,
+      "read_scope": "full_file",
+      "source_url": "https://raw.githubusercontent.com/salesforce/ja3/502cc6395811c54743b0561419d61900a6df3ff7/README.md"
+    },
+    {
+      "path": "python/README.rst",
+      "bytes": 1850,
+      "lines": 55,
+      "sha256": "b4ad8b727f1a711bb145a7bcefccf229a90f690c2582cc9b1a0da9d20c00cba6",
+      "git_blob_sha1": "bc5b725efa8a3c49899e7c23e80a0ac3da456419",
+      "fixed_tree_blob_match": true,
+      "read_scope": "full_file",
+      "source_url": "https://raw.githubusercontent.com/salesforce/ja3/502cc6395811c54743b0561419d61900a6df3ff7/python/README.rst"
+    },
+    {
+      "path": "python/setup.py",
+      "bytes": 1129,
+      "lines": 39,
+      "sha256": "289e0ce023bf4954601fe324630654fcfefc25be064d26a165d912d99d68b62d",
+      "git_blob_sha1": "d45a83d87e18d6ccd2559467ff32441e3e381ce6",
+      "fixed_tree_blob_match": true,
+      "read_scope": "full_file",
+      "source_url": "https://raw.githubusercontent.com/salesforce/ja3/502cc6395811c54743b0561419d61900a6df3ff7/python/setup.py"
+    },
+    {
+      "path": "python/requirements.txt",
+      "bytes": 12,
+      "lines": 1,
+      "sha256": "a0e42e19d0db5cfce54d36724ed852aaa3f4beacf379de32f359a4929acc3557",
+      "git_blob_sha1": "b3c8b3a9fc137f2e05ee51eca4861ea316297eae",
+      "fixed_tree_blob_match": true,
+      "read_scope": "full_file",
+      "source_url": "https://raw.githubusercontent.com/salesforce/ja3/502cc6395811c54743b0561419d61900a6df3ff7/python/requirements.txt"
+    },
+    {
+      "path": "python/ja3/__init__.py",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "fixed_tree_blob_match": true,
+      "read_scope": "full_file",
+      "source_url": "https://raw.githubusercontent.com/salesforce/ja3/502cc6395811c54743b0561419d61900a6df3ff7/python/ja3/__init__.py"
+    },
+    {
+      "path": "python/ja3.py",
+      "bytes": 9404,
+      "lines": 284,
+      "sha256": "9c587a270c2cf902dfcf5580617009d29f78a777c7d7d78c3b88242b42815266",
+      "git_blob_sha1": "e5952fdfdf8e03ffb5390c08366b97588bd7e209",
+      "fixed_tree_blob_match": true,
+      "read_scope": "full_file",
+      "source_url": "https://raw.githubusercontent.com/salesforce/ja3/502cc6395811c54743b0561419d61900a6df3ff7/python/ja3.py"
+    },
+    {
+      "path": "python/ja3/ja3.py",
+      "bytes": 8952,
+      "lines": 275,
+      "sha256": "d223b68672722dc86f78f37e27b28980609d988779b82b7452836db72cbc37ea",
+      "git_blob_sha1": "3ab100fd69c66c8a0bd2f2cc4468d69579594d45",
+      "fixed_tree_blob_match": true,
+      "read_scope": "full_file",
+      "source_url": "https://raw.githubusercontent.com/salesforce/ja3/502cc6395811c54743b0561419d61900a6df3ff7/python/ja3/ja3.py"
+    },
+    {
+      "path": "python/ja3s.py",
+      "bytes": 6318,
+      "lines": 197,
+      "sha256": "261454cec4e66aac4892a9003b3437d5b1835a9bd23c48fa5ed037e4d455212b",
+      "git_blob_sha1": "70c811a8ef80a55c9c53d66b7255246342041528",
+      "fixed_tree_blob_match": true,
+      "read_scope": "full_file",
+      "source_url": "https://raw.githubusercontent.com/salesforce/ja3/502cc6395811c54743b0561419d61900a6df3ff7/python/ja3s.py"
+    }
+  ],
+  "excluded": "Zeek plugins, intelligence lists, live collection, evasion/fingerprint impersonation and upstream dependency implementations not selected; no original runtime reused",
+  "differences": "New complete bounded offline capture/TLS parsing. Multiple plaintext handshakes are walked; unsupported TCP/IP/TLS reassembly stays OPEN rather than silently skipped. Addresses/ports/hello raw bytes never output by default. MD5 is compatibility metadata only; original maliciousness/identity implications are not adopted."
+}

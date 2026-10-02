@@ -1,0 +1,206 @@
+{
+  "scope": "all new runtime, tests, packaging, CI, provenance and complete project licenses; this inventory excludes its own bytes and research/build caches",
+  "reviewer": "/root/audit_shortlist independent runtime/tests/docs review; consumer helper and CI written by same reviewer and internally reviewed, component independence stated separately",
+  "runtime_modules": 10,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 42,
+      "sha256": "63149f905cea05718f4401f6f9f0bdbfcdde01ad9d9b126f461f592ffbb9ba52",
+      "review": "complete_file"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1245,
+      "sha256": "d3bec876bb5ba77d07ed5e08edccf47ee611b198b0f7597b524e0e0f5aab9e1d",
+      "review": "complete_file"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 88,
+      "sha256": "21c18564546e2a5e47ca721e64d58ce32e62e664219b88813412811d871b3a50",
+      "review": "complete_file"
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "bytes": 4562,
+      "sha256": "780bec6ce7ad5a30301e33d28bd868275b2128873abfef2c7f40e9869c956ede",
+      "review": "complete_file"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1542,
+      "sha256": "0a72f806581799b80561438964854a9fb2e5f252fd4ded7f3ea288ceba8a8582",
+      "review": "complete_file"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 315,
+      "sha256": "6e6bc498d85dc18d6c1280185ab93cb188655627057e302295bfcedbd1c2b7f3",
+      "review": "complete_file"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1196,
+      "sha256": "c67edb93084b1993ba55a4ed1db518d4605204bf6b0da38046d570b4352a53cc",
+      "review": "complete_file"
+    },
+    {
+      "path": "ORIGIN.md",
+      "bytes": 3141,
+      "sha256": "ccba7e9f5a481817ee80440e3cdf71ce7d69e2f8e5b19665a6ab033aa2be4b58",
+      "review": "complete_file"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4801,
+      "sha256": "8639268617f26099da5e330327c26a6f503cf17b8e8f52473476d2392c32d547",
+      "review": "complete_file"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 3124,
+      "sha256": "d5f49ee868651b7fb2ba88f254cf70001fadd38b346e33bab8cd84cc5b53898a",
+      "review": "complete_file"
+    },
+    {
+      "path": "evidence/format-references.json",
+      "bytes": 3006,
+      "sha256": "5ca31303c42dfd59e3be1e9cd7ebf054a37b5a67e63bb399e9b8f18445df9699",
+      "review": "complete_file"
+    },
+    {
+      "path": "evidence/scope-gate.json",
+      "bytes": 4730,
+      "sha256": "52556219ba3ac8080caa20e76a837ba80e1553560335e63f4d419fe0b10c397e",
+      "review": "complete_file"
+    },
+    {
+      "path": "evidence/upstream-differential.json",
+      "bytes": 14127,
+      "sha256": "dc95aec97ab2cbc2a9c8c7bcac63ab44b59966caa09f86b3682e56dbd06298c1",
+      "review": "complete_file"
+    },
+    {
+      "path": "licenses/dpkt-research-AUTHORS.txt",
+      "bytes": 1494,
+      "sha256": "552bbe2449c3300b519a1db0dd6b0cfd382384f0ffb7d2dc9d24477dfc79d907",
+      "review": "complete_file"
+    },
+    {
+      "path": "licenses/dpkt-research-BSD.txt",
+      "bytes": 1493,
+      "sha256": "4c5ffde575425591cbd51410219a6b98bbbb717e0c5784187e356653da8e5095",
+      "review": "complete_file"
+    },
+    {
+      "path": "licenses/salesforce-BSD-3-Clause.txt",
+      "bytes": 1484,
+      "sha256": "9f6d1b467c2cfd977e794bfb379164117e6cd4130d145dfe12800dd85da88dc3",
+      "review": "complete_file"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 998,
+      "sha256": "d4bbf1922c520e1ebb5bc6bd5776fc8a7cc9cb48273a0095340b1f2a358fb1c7",
+      "review": "complete_file"
+    },
+    {
+      "path": "requirements-build.lock",
+      "bytes": 480,
+      "sha256": "3e6df0d3584b7246949b6d6f54a0eccd7d5a438f7fed0ee8112433c767858384",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/__init__.py",
+      "bytes": 234,
+      "sha256": "e6c4ae76a58487bb8098b7ac3bae66106d943e09efd9053f3aff5c10aff2d3e2",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/__main__.py",
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/binary.py",
+      "bytes": 1838,
+      "sha256": "01113230f35b9b5c71b002b6182daf62eeb57f9dba7d3f8b3c290319c5015409",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/capture.py",
+      "bytes": 11381,
+      "sha256": "7f096af1670170008316c2c89f0c7dd1fd71d68f22fdeeb6be9e350b614b4e61",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/cli.py",
+      "bytes": 1594,
+      "sha256": "ec6c0c4aeb86ae15b52acc04a7212d968a9cc75f540bb66a8c20345245c68381",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/contracts.py",
+      "bytes": 3777,
+      "sha256": "34d11dccca4d8003f18cb9f7e1636ea02dd7987c5d715cc35114b991d536e28a",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/files.py",
+      "bytes": 2624,
+      "sha256": "50f502869de92d78cad7c859a3c31739bc3a474c84334a111d2c3f13476ae683",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/network.py",
+      "bytes": 4592,
+      "sha256": "6474a1cb8968a1dd8c7c3b992eb039f9734a824844a15b55c12ee6fbb9b29026",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/py.typed",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/review.py",
+      "bytes": 1398,
+      "sha256": "f3c546375a86a86c80ed360b6770bee3725b39bc75984cc09e9bc694f3aed774",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/handshake_evidence_review/tls.py",
+      "bytes": 7268,
+      "sha256": "6856f8001ab93bce8e587c46a638fac7c4fa4b26dae85197d587f668554f4e0a",
+      "review": "complete_file"
+    },
+    {
+      "path": "tests/fixtures.py",
+      "bytes": 5008,
+      "sha256": "ebc2383a67bf9662d5509a64c5386c90c47f934111a8b74c2ce707ba55fd63aa",
+      "review": "complete_file"
+    },
+    {
+      "path": "tests/test_files.py",
+      "bytes": 3210,
+      "sha256": "a9e00b9b94778cd3b5e2383101f4a5d609d2db2a0d67a1fc5b42f408fd041d0a",
+      "review": "complete_file"
+    },
+    {
+      "path": "tests/test_review.py",
+      "bytes": 14946,
+      "sha256": "46df263dda965f62823a06e2b618663c788ceb2037546da410742380ecb1a7e7",
+      "review": "complete_file"
+    },
+    {
+      "path": "tools/verify_consumer.py",
+      "bytes": 8946,
+      "sha256": "24c3bb7c811d3019523178e373673e3f42d22c22bdcce5485d503b2c531b9dad",
+      "review": "complete_file"
+    }
+  ],
+  "audit_limits": "Selected primary field/envelope references only; not complete upstream/dependency/protocol or security audit; CVP eligibility remains OPEN"
+}
