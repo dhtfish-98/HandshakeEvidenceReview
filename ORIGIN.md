@@ -7,8 +7,9 @@ root/Python READMEs and complete original license were read in full:9 files,1003
 physical lines. Their SHA-256 and fixed Git blob identities are recorded in
 `evidence/scope-gate.json`. This does not claim an audit of the entire archived
 repository, Zeek code, intelligence lists or upstream dependency implementations.
-The original Salesforce copyright and complete license remain verbatim in
-`licenses/salesforce-BSD-3-Clause.txt`.
+No original Salesforce implementation or test corpus is redistributed. Its unused
+reference-only license/copyright copy was removed; fixed source and review
+provenance above remain.
 
 The new cursor, capture, network, TLS, budget, evidence and CLI implementation is
 independent new code; implementation author and maintainer: dhtfish98. It uses standard-library parsing
@@ -37,5 +38,7 @@ Actual comparison ran all three unchanged fixed Salesforce scripts with pinned
 research-only DPKT1.9.8 and setuptools80.9.0 on synthetic benign complete captures.
 The original requirement names DPKT1.9.1; the research version is explicitly newer,
 and no DPKT implementation is bundled as product runtime. Its complete metadata,
-BSD license and authors notice were read; whole dependency implementation remains
+BSD license and authors notice were read; these remain with the separately
+installed research dependency rather than this distribution. Unused reference-only
+copies were removed; whole dependency implementation remains
 OPEN. No real user traffic or raw original research output is redistributed.

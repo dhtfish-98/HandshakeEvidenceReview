@@ -15,11 +15,12 @@ import handshake_evidence_review
 
 def main():
     source = Path(__file__).resolve().parents[1]
+    configuration = tomllib.loads((source / "pyproject.toml").read_text())
     installed = Path(handshake_evidence_review.__file__).resolve().parent
     assert installed != source / "src/handshake_evidence_review"
     assert Path(sys.prefix).resolve() in installed.parents and "site-packages" in installed.parts
     distribution = importlib.metadata.distribution("handshake-evidence-review")
-    assert distribution.version == "0.1.1"
+    assert distribution.version == configuration["project"]["version"]
     assert distribution.metadata["Name"] == "handshake-evidence-review"
     assert distribution.metadata["Requires-Python"] == ">=3.11"
     assert distribution.metadata["License-Expression"] == "BSD-3-Clause"
@@ -38,9 +39,6 @@ def main():
     for name in (
         "LICENSE",
         "NOTICE",
-        "licenses/salesforce-BSD-3-Clause.txt",
-        "licenses/dpkt-research-BSD.txt",
-        "licenses/dpkt-research-AUTHORS.txt",
     ):
         matches = [
             entry
@@ -54,7 +52,6 @@ def main():
             {"file": name, "sha256": hashlib.sha256(actual.read_bytes()).hexdigest()}
         )
     shared_rows = []
-    configuration = tomllib.loads((source / "pyproject.toml").read_text())
     for directory, patterns in configuration["tool"]["setuptools"]["data-files"].items():
         for pattern in patterns:
             matches = sorted(source.glob(pattern))

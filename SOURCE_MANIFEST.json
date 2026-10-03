@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "HandshakeEvidenceReview",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "dhtfish98",
   "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
   "files": [
@@ -32,33 +32,33 @@
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "f63fe24d0cb184939705d0b8abbc4ebc1d91e1ac2d8bf904c64966028d7558d6",
-      "bytes": 345
+      "sha256": "8864622ec0a40c5618bc9e4b9ed33ae9e8c9afdeb1ef57cb40340c88c33cf240",
+      "bytes": 312
     },
     {
       "path": "NOTICE",
-      "sha256": "a3c2732b43ac9656169654b0ee9984040136a4d73a7326d954efe62e18e692d3",
-      "bytes": 1210
+      "sha256": "3d2c4632ffab69e3adacd9c5623e0a0f0b437f861e9ec90f6fc7b7c76b5f7ce8",
+      "bytes": 962
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "b7b6dda1078e36d77e477b14600db10b20aac3e0e99dc1ecfedb0b4a8895c1d3",
-      "bytes": 3164
+      "sha256": "69df93fba6c751cd24f5af9868f1e4a1e210dfc4137e51d018465624866c03ec",
+      "bytes": 3369
     },
     {
       "path": "README.md",
-      "sha256": "5bba6af6f25aab8848e0db3057da204230c60016865ab6f7f6c36ab91aab2bda",
+      "sha256": "3cf7f6572bb74a58c65ea3d6c3c3484e63888f5689d18f3665db8b4ef13bef48",
       "bytes": 5558
     },
     {
       "path": "SOURCE_AUDIT.json",
-      "sha256": "89d888e6e426c9409abdc7f688cab5714de820381a8a2b511a96704457808373",
-      "bytes": 7132
+      "sha256": "8d89f80fcada5cfb5c54c6bea23f0a575c7765d8b2a421a73ec78e4759e61123",
+      "bytes": 7605
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "812a08bd1b5f55998eb1c7f6c32179692d5b9dc849037b6979e295d8ce99c643",
-      "bytes": 5022
+      "sha256": "510f10e378fa4b5474c7e73737a2678e2f5345d6be2466f14e68f32512dbe491",
+      "bytes": 6361
     },
     {
       "path": "evidence/format-references.json",
@@ -76,24 +76,9 @@
       "bytes": 14127
     },
     {
-      "path": "licenses/dpkt-research-AUTHORS.txt",
-      "sha256": "552bbe2449c3300b519a1db0dd6b0cfd382384f0ffb7d2dc9d24477dfc79d907",
-      "bytes": 1494
-    },
-    {
-      "path": "licenses/dpkt-research-BSD.txt",
-      "sha256": "4c5ffde575425591cbd51410219a6b98bbbb717e0c5784187e356653da8e5095",
-      "bytes": 1493
-    },
-    {
-      "path": "licenses/salesforce-BSD-3-Clause.txt",
-      "sha256": "9f6d1b467c2cfd977e794bfb379164117e6cd4130d145dfe12800dd85da88dc3",
-      "bytes": 1484
-    },
-    {
       "path": "pyproject.toml",
-      "sha256": "e7273fd4771f56a29608cd177592a4370b7ea37ef24a467ea445edb8d3f995c0",
-      "bytes": 1068
+      "sha256": "b0cd478bff19f5a124a424dd283ddca614aabe1c6b5cf5429d8a662e84690b6a",
+      "bytes": 1050
     },
     {
       "path": "requirements-build.lock",
@@ -102,7 +87,7 @@
     },
     {
       "path": "src/handshake_evidence_review/__init__.py",
-      "sha256": "2365863f67a49af27886551fb48fe7064cc566a632ea6c553f0d3607fb9da0dd",
+      "sha256": "5da0cddd71a1350544cf1ee1caceee5224ac02bedb882617250a125a419ff9ab",
       "bytes": 234
     },
     {
@@ -122,12 +107,12 @@
     },
     {
       "path": "src/handshake_evidence_review/cli.py",
-      "sha256": "58226b52dd862ea7276d95b9b00f10d2b1e9460a73fd13b99d968d72b34c0806",
+      "sha256": "9e429e7436cfd06f28be14853081f3ed6603c0ab5116ef69d069c48317e20130",
       "bytes": 1594
     },
     {
       "path": "src/handshake_evidence_review/contracts.py",
-      "sha256": "a6ee53b1642ce919429b2e001a17c10f0f5315b309d807dd48350cfb2b386245",
+      "sha256": "b78c1537921c98e18b6db117a4ccdfd3632c09a5641eb7ffb8b9ff8dc5fe096c",
       "bytes": 3777
     },
     {
@@ -182,8 +167,9 @@
     },
     {
       "path": "tools/verify_consumer.py",
-      "sha256": "2bdeef08aba03913bd70d11712cc0693b38bb1473d4dfe2f6dda4d1d7a863aa4",
-      "bytes": 8946
+      "sha256": "d3370bbcb094272eb1b3a6b33f905983759ac86ccc30bdfcd13ba2bf4300dc86",
+      "bytes": 8838
     }
-  ]
+  ],
+  "license_cleanup": "Only approved reference-only copies removed; applicable data/code/terms and own LICENSE preserved."
 }

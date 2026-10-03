@@ -2,14 +2,10 @@ HandshakeEvidenceReview is independently written defensive code.
 New implementation author and maintainer: dhtfish98. It is not an official Salesforce/DPKT/IETF release or a
 CVP-approved project. The applicant is not the sole original upstream author.
 
-The complete original Salesforce JA3 BSD-3-Clause copyright/license is retained
-verbatim in licenses/salesforce-BSD-3-Clause.txt, fixed source commit
-502cc6395811c54743b0561419d61900a6df3ff7. The selected source was studied for the
-JA3/JA3S compatibility formula. No original runtime or intelligence list is bundled.
-
-DPKT1.9.8 is a research-only oracle dependency, separately pinned; its complete
-BSD license and authors notice are preserved in licenses/dpkt-research-BSD.txt
-and licenses/dpkt-research-AUTHORS.txt. Its implementation is not bundled here.
+Salesforce JA3 and DPKT1.9.8 are source/research-only references. No original
+runtime, intelligence list, DPKT implementation or captured research payload is
+bundled. Unused reference-only license/copyright/authors copies were removed;
+original licenses remain with separately acquired research dependencies.
 Host Python and pinned build-tool implementations are separate trusted dependencies.
 
 Primary IETF RFC/draft and tcpdump format references were research readings as

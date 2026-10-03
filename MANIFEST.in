@@ -1,5 +1,4 @@
 include .gitattributes README.md ORIGIN.md DEFENSIVE_SCOPE.md VALIDATION.md SOURCE_AUDIT.json LICENSE NOTICE requirements-build.lock
-recursive-include licenses *.txt
 recursive-include evidence *.json
 recursive-include tests *.py
 recursive-include tools *.py
