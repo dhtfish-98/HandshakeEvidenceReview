@@ -11,7 +11,7 @@ The original Salesforce copyright and complete license remain verbatim in
 `licenses/salesforce-BSD-3-Clause.txt`.
 
 The new cursor, capture, network, TLS, budget, evidence and CLI implementation is
-independent Codex-assisted code for bitfish886. It uses standard-library parsing
+independent new code; implementation author and maintainer: dhtfish98. It uses standard-library parsing
 and does not call or redistribute the original runtime. The applicant is not
 represented as sole original author of the upstream project. Salesforce's old raw
 IP/port/packet reporting and threat implications are not adopted. Multiple hello

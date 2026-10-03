@@ -1,5 +1,5 @@
-HandshakeEvidenceReview is independently written defensive code developed with
-OpenAI Codex assistance. It is not an official Salesforce/DPKT/IETF release or a
+HandshakeEvidenceReview is independently written defensive code.
+New implementation author and maintainer: dhtfish98. It is not an official Salesforce/DPKT/IETF release or a
 CVP-approved project. The applicant is not the sole original upstream author.
 
 The complete original Salesforce JA3 BSD-3-Clause copyright/license is retained

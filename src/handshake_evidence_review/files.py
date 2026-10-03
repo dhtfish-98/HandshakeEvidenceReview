@@ -12,9 +12,11 @@ class InputUnavailable(Exception):
 def snapshot(path, maximum):
     if (
         os.name != "posix"
+        or type(getattr(os, "supports_dir_fd", None)) not in (set, frozenset)
         or os.open not in os.supports_dir_fd
-        or not all(
-            hasattr(os, name) for name in ("O_DIRECTORY", "O_NOFOLLOW", "O_CLOEXEC", "O_NONBLOCK")
+        or any(
+            type(getattr(os, name, None)) is not int or getattr(os, name, 0) <= 0
+            for name in ("O_DIRECTORY", "O_NOFOLLOW", "O_CLOEXEC", "O_NONBLOCK")
         )
     ):
         raise InputUnavailable("snapshot_platform_unsupported")

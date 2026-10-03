@@ -19,7 +19,7 @@ def main():
     assert installed != source / "src/handshake_evidence_review"
     assert Path(sys.prefix).resolve() in installed.parents and "site-packages" in installed.parts
     distribution = importlib.metadata.distribution("handshake-evidence-review")
-    assert distribution.version == "0.1.0"
+    assert distribution.version == "0.1.1"
     assert distribution.metadata["Name"] == "handshake-evidence-review"
     assert distribution.metadata["Requires-Python"] == ">=3.11"
     assert distribution.metadata["License-Expression"] == "BSD-3-Clause"

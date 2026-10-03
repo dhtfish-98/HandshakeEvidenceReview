@@ -5,3 +5,5 @@ recursive-include tests *.py
 recursive-include tools *.py
 recursive-include .github *.yml
 global-exclude *.py[cod]
+
+include SOURCE_MANIFEST.json

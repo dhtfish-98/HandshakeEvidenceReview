@@ -1,5 +1,7 @@
 # HandshakeEvidenceReview
 
+New implementation author and maintainer: dhtfish98.
+
 Inspect an explicitly supplied offline PCAP or PCAPNG snapshot and report bounded
 TLS hello envelopes, original JA3/JA3S compatibility tags and their physical byte
 origins. The new standard-library parser reads actual capture, link, IP, TCP, TLS
@@ -8,7 +10,7 @@ There is no live capture, network access, sample execution, fingerprint imperson
 traffic rewriting or intelligence-list lookup.
 
 ```sh
-python -m pip install --no-index --no-deps dist/handshake_evidence_review-0.1.0-py3-none-any.whl
+python -m pip install --no-index --no-deps dist/handshake_evidence_review-0.1.1-py3-none-any.whl
 handshake-evidence-review /absolute/authorized/capture.pcap
 handshake-evidence-review /absolute/authorized/capture.pcapng --any-port
 ```
@@ -74,3 +76,11 @@ strings become code, commands, URLs or terminal actions.
 
 See [DEFENSIVE_SCOPE.md](DEFENSIVE_SCOPE.md), [ORIGIN.md](ORIGIN.md),
 [VALIDATION.md](VALIDATION.md) and the complete notices in [NOTICE](NOTICE).
+
+Local file I/O requires the positive integer OS protection flags documented by
+the reader/writer. Missing, zero, None, Boolean or non-integer flags return a
+controlled OPEN/error before requested filesystem input/output instead of
+weakening the boundary. Native
+Windows file I/O is not verified; the current verification is macOS POSIX.
+
+Directory descriptor capability contract: `os.supports_dir_fd` must be a set or frozenset containing `os.open` before requested local file access. Missing, malformed or incomplete capability declarations return the existing controlled OPEN/error result. This finite POSIX contract is checked locally; native Windows file operations are not implemented or claimed.
