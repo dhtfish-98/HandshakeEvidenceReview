@@ -25,7 +25,7 @@ def main():
     assert distribution.metadata["Requires-Python"] == ">=3.11"
     assert distribution.metadata["License-Expression"] == "BSD-3-Clause"
     assert not distribution.requires
-    assert distribution.metadata.get_payload() == (source / "README.md").read_text()
+    assert distribution.metadata.get_payload() == (source / "项目文档/README.md").read_text()
     checked = []
     for path in sorted((source / "src/handshake_evidence_review").glob("*")):
         if not path.is_file():
@@ -37,8 +37,8 @@ def main():
         )
     license_rows = []
     for name in (
-        "LICENSE",
-        "NOTICE",
+        "项目文档/LICENSE",
+        "项目文档/NOTICE",
     ):
         matches = [
             entry

@@ -1,3 +1,5 @@
+> 目录已整理：文档在「项目文档」，构建、缓存与暂存输入在「Build」。从仓库根目录运行 `python3 构建.py --build`；如需使用本文原有源码命令，先运行 `python3 构建.py --stage --ci`，再进入 `Build/源码`。暂存会恢复原输入路径。现有版本和历史验证记录按各自提交理解。
+
 # HandshakeEvidenceReview
 
 New implementation author and maintainer: dhtfish98.
@@ -74,8 +76,8 @@ and body offsets, sizes and SHA-256 hashes refer to their exact physical input
 ranges. Hashes are provenance, not anonymization or proof of authenticity. No target
 strings become code, commands, URLs or terminal actions.
 
-See [DEFENSIVE_SCOPE.md](DEFENSIVE_SCOPE.md), [ORIGIN.md](ORIGIN.md),
-[VALIDATION.md](VALIDATION.md) and the complete notices in [NOTICE](NOTICE).
+See [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>), [ORIGIN.md](<ORIGIN.md>),
+[VALIDATION.md](<VALIDATION.md>) and the complete notices in [NOTICE](<NOTICE>).
 
 Local file I/O requires the positive integer OS protection flags documented by
 the reader/writer. Missing, zero, None, Boolean or non-integer flags return a

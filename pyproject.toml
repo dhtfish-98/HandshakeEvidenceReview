@@ -6,10 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "handshake-evidence-review"
 version = "0.1.2"
 description = "Bounded offline capture and TLS hello fingerprint evidence"
-readme = "README.md"
+readme = "项目文档/README.md"
 requires-python = ">=3.11"
 license = "BSD-3-Clause"
-license-files = ["LICENSE", "NOTICE"]
+license-files = ["项目文档/LICENSE", "项目文档/NOTICE"]
 authors = [{name = "dhtfish98"}]
 maintainers = [{name = "dhtfish98"}]
 dependencies = []
@@ -27,7 +27,7 @@ where = ["src"]
 handshake_evidence_review = ["py.typed"]
 
 [tool.setuptools.data-files]
-"share/handshake-evidence-review" = ["README.md", "ORIGIN.md", "DEFENSIVE_SCOPE.md", "VALIDATION.md", "SOURCE_AUDIT.json", "requirements-build.lock"]
+"share/handshake-evidence-review" = ["项目文档/README.md", "项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "SOURCE_AUDIT.json", "requirements-build.lock"]
 "share/handshake-evidence-review/evidence" = ["evidence/*.json"]
 
 [tool.ruff]
