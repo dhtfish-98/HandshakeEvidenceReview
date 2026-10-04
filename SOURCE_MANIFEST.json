@@ -22,11 +22,11 @@
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "d0d46a62900cabf1e4bfab0ba4c47c346b7b4af64a3b43a4ef6436d1cef34540",
-      "bytes": 873
+      "sha256": "68e62bcfdcf9d28f172942c72768f4e3b61962bea7129d59159a29da5d3bd043",
+      "bytes": 886
     },
     {
-      "path": "SOURCE_AUDIT.json",
+      "path": "项目文档/SOURCE_AUDIT.json",
       "sha256": "8d89f80fcada5cfb5c54c6bea23f0a575c7765d8b2a421a73ec78e4759e61123",
       "bytes": 7605
     },
@@ -36,19 +36,19 @@
       "bytes": 3006
     },
     {
-      "path": "evidence/scope-gate.json",
+      "path": "项目文档/evidence/scope-gate.json",
       "sha256": "52556219ba3ac8080caa20e76a837ba80e1553560335e63f4d419fe0b10c397e",
       "bytes": 4730
     },
     {
-      "path": "evidence/upstream-differential.json",
+      "path": "项目文档/evidence/upstream-differential.json",
       "sha256": "dc95aec97ab2cbc2a9c8c7bcac63ab44b59966caa09f86b3682e56dbd06298c1",
       "bytes": 14127
     },
     {
       "path": "pyproject.toml",
-      "sha256": "9b504ef7d292b5a83774c99317f891bae6bc5fd2003a99032432299f6291522a",
-      "bytes": 1141
+      "sha256": "c452fec6b85acd35d516c6ea8cf1984cfe24b4fe586124682488e54fc002657c",
+      "bytes": 1186
     },
     {
       "path": "requirements-build.lock",

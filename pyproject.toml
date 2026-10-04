@@ -27,8 +27,8 @@ where = ["src"]
 handshake_evidence_review = ["py.typed"]
 
 [tool.setuptools.data-files]
-"share/handshake-evidence-review" = ["项目文档/README.md", "项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "SOURCE_AUDIT.json", "requirements-build.lock"]
-"share/handshake-evidence-review/evidence" = ["evidence/*.json"]
+"share/handshake-evidence-review" = ["项目文档/README.md", "项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "项目文档/SOURCE_AUDIT.json", "requirements-build.lock"]
+"share/handshake-evidence-review/evidence" = ["evidence/*.json", "项目文档/evidence/*.json"]
 
 [tool.ruff]
 line-length = 100
