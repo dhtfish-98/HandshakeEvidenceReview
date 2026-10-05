@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "HandshakeEvidenceReview",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "dhtfish98",
   "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
   "files": [
@@ -47,7 +47,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "c452fec6b85acd35d516c6ea8cf1984cfe24b4fe586124682488e54fc002657c",
+      "sha256": "976c67af2e67f7e0773e19c0ce944f80340c570fe5a33e3cfeb39b1ca50ee3ef",
       "bytes": 1186
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "path": "src/handshake_evidence_review/__init__.py",
-      "sha256": "5da0cddd71a1350544cf1ee1caceee5224ac02bedb882617250a125a419ff9ab",
+      "sha256": "eb3df6ff726d6646b5aee429d9b6fc0ed701cd81887ffa0ed7deb6e34a3b60e6",
       "bytes": 234
     },
     {
@@ -77,12 +77,12 @@
     },
     {
       "path": "src/handshake_evidence_review/cli.py",
-      "sha256": "9e429e7436cfd06f28be14853081f3ed6603c0ab5116ef69d069c48317e20130",
+      "sha256": "71b110660c5fcabd3113fc8573dad477d8b82160201af512a63b4cc4fb5d556e",
       "bytes": 1594
     },
     {
       "path": "src/handshake_evidence_review/contracts.py",
-      "sha256": "b78c1537921c98e18b6db117a4ccdfd3632c09a5641eb7ffb8b9ff8dc5fe096c",
+      "sha256": "2a247eb79773469ea9622672b0020ac03ba70f3ddadb8ca8ed88d443c84bb30e",
       "bytes": 3777
     },
     {
@@ -146,7 +146,7 @@
       "path": "构建.py"
     },
     {
-      "sha256": "a123f2f4661f15b49c49bcfb63bce0a4f08e068cf03d1fd9c0f64abb4311d9d8",
+      "sha256": "d83fd8264c27435a10f7c2ba17b1f64e610f4261120c0a5f3e16c9d12241ed31",
       "bytes": 1278,
       "path": "构建配置.json"
     },
@@ -172,13 +172,13 @@
     },
     {
       "path": "项目文档/README.md",
-      "sha256": "19fd473731787de16f0112b20e5d69b55696e3d57dc33517d3f98f60dec1035d",
+      "sha256": "49c080d4fcb9fd627c762aa96c5c6026d26320b03b1e5a38e96d8812445cd388",
       "bytes": 5921
     },
     {
       "path": "项目文档/VALIDATION.md",
-      "sha256": "510f10e378fa4b5474c7e73737a2678e2f5345d6be2466f14e68f32512dbe491",
-      "bytes": 6361
+      "sha256": "5d2f3fa06f9c84fc6b59ca0b703d3e3ec1c20fd43b44e809fcb59598e2ab43fb",
+      "bytes": 6944
     },
     {
       "sha256": "aa06f2062aec81284e1d9d7aa1ad7fe44961531bdbd69b573bad0a0d34b263a4",

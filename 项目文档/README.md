@@ -12,7 +12,7 @@ There is no live capture, network access, sample execution, fingerprint imperson
 traffic rewriting or intelligence-list lookup.
 
 ```sh
-python -m pip install --no-index --no-deps dist/handshake_evidence_review-0.1.2-py3-none-any.whl
+python -m pip install --no-index --no-deps dist/handshake_evidence_review-0.1.3-py3-none-any.whl
 handshake-evidence-review /absolute/authorized/capture.pcap
 handshake-evidence-review /absolute/authorized/capture.pcapng --any-port
 ```

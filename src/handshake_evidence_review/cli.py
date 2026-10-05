@@ -18,7 +18,7 @@ def main(argv=None):
         description="Bounded offline PCAP/PCAPNG hello fingerprint evidence.",
         allow_abbrev=False,
     )
-    parser.add_argument("--version", action="version", version="HandshakeEvidenceReview 0.1.2")
+    parser.add_argument("--version", action="version", version="HandshakeEvidenceReview 0.1.3")
     parser.add_argument("capture")
     parser.add_argument(
         "--any-port",

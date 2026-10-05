@@ -1,3 +1,7 @@
+## Current release 0.1.3: package and documentation layout sync, 2026-10-05
+
+This patch release binds the current source and package metadata to the centralized 项目文档 and Build layout. Runtime behavior is unchanged from the previous main commit except version identifiers. The complete existing third-party licenses and provenance notices remain in scope. Historical tests below retain their original version and date; exact current build, installed-consumer and hosted-CI results are recorded separately with the release. CVP eligibility and applicant approval remain OPEN.
+
 ## Current version 0.1.2: applicable material notices, 2026-10-03
 
 New implementation author and maintainer: dhtfish98. Package version: `0.1.2`.

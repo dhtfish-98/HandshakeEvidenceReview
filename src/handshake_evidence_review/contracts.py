@@ -83,7 +83,7 @@ class Ledger:
             self.issue("no_complete_hello_observed", 0)
         result = {
             "project": "HandshakeEvidenceReview",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "status": "FAIL" if self.fail else "OPEN" if self.open else "PASS",
             "meaning": "bounded_capture_and_fingerprint_profile_only",
             "input": {"bytes": size, "sha256": digest, "format": capture_format},
